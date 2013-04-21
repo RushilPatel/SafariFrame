@@ -1,0 +1,36 @@
+﻿<html>
+
+<head>
+<title>Safari Browser</title>
+<script type="text/javascript" src="Scripts/SafariFrame.js"></script>
+<link rel="stylesheet" href="Style/SafariCss.css" type="text/css" media="screen">
+</head>
+<body id="page">
+	<div id="main">
+		<div id="toprow">
+			<div id="titlebar">
+				<div id="closebutton"><img height="22px" src="Images/close.PNG"></div>
+				<div id="textholder">Rushil Patel</div>
+				<div id="fullbutton"><img src="Images/enlarge.PNG">&nbsp;</div>
+			</div>
+			
+			<div id="menubar">
+				<div id="navbuttons">
+					<div id="back" onclick="goBack()">&nbsp;</div>
+					<div id="forward" onclick="goForward()">&nbsp;</div>
+				</div>
+				<input id="urlbox" onkeypress="urlKeyPress(event)" type="text"/>
+				<span id="refresh" onclick="history.go(0)"></span>			
+				<div id="googimg"><div style="width:24px; height:19px; float:right;" onclick="searchEvent()">&nbsp;</div></div>
+				<input id="googlebox" onkeypress="searchKeyPress(event)" x-webkit-speech placeholder="Google" type="text" value="" />			
+				<div id="downloads"><img height="20px" src="Images/downloads.PNG">&nbsp;&nbsp;</div>
+			</div>
+						
+		</div>
+		<div id="framearea">
+		<iframe id="browserframe" src="http://www.apple.com">This is the iFrame to display contents!!!</iframe>
+		<script type="text/javascript">setURL();</script>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,133 @@
+﻿#page{
+	background-image:url('../Images/Background.jpg');
+	background-size:100% 100%;	
+	display:block;
+}
+#main{
+	color: #777;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 5% auto;
+	width: 80%;
+	height:80%;
+	background-color:#f3f3f3;	
+	min-width:900px;
+}
+#toprow{
+	height:52px;
+	background-image:url('../Images/topbar.PNG');
+	background-repeat:repeat;
+
+}
+#titlebar{
+	height:23px;
+	text-align:center;
+	font-family:"Times New Roman", Times, serif;
+	font-size:12pt;
+	color:black;
+	width:100%;
+}
+#closebutton{
+	width:33%;
+	text-align:left;
+	height:22px;
+	float:left;
+	
+}
+#fullbutton{
+	height:22px;
+	text-align:right;
+	width:33%;
+	float:left;
+}
+#textholder{
+	height:22px;
+	text-align:center;
+	float:left;
+	width:34%;
+	margin-top:1px;
+	vertical-align:central;
+}
+
+#navbuttons{
+	background-image:url('../Images/buttons.PNG');
+	background-repeat:no-repeat;
+	width:7%;
+	height:24px;
+	float:left;
+}
+#back{
+	width:30px;
+	float:left;
+}
+#forward{
+	width:28px;
+	float:left;
+}
+#urlbox{
+	height:20px;
+	background-color:white;
+	margin-top:1px;
+	width:55%;
+	text-indent: 1%;
+	float:left;
+	border:0;
+	color:#333333;
+	outline:none;
+	-webkit-appearance: none;
+	border-radius:0;
+}
+#googlebox{
+	width: 25%;
+	height:20px;
+	text-indent: 1%;
+	float:left;
+	border:0;
+	outline:none;
+	margin-top:1px;
+    -webkit-appearance: none;
+    border-radius:0;
+}
+
+#googimg{
+	margin-top:1px;
+	text-align:right;
+	width:5%;
+	float:left;
+	border:0;
+	background-image:url('../Images/goog.PNG');
+	background-repeat:no-repeat;
+	background-position:right;
+	height:20px;
+}
+#refresh{
+	margin-top:1px;
+	width:3%;
+	text-align:left;
+	float:left;
+	height:20px;
+	background-image:url('../Images/refresh.PNG');
+	background-color:white;
+	background-position:right;
+	background-repeat:no-repeat;
+	border:0;
+}
+#downloads{
+	float:left;
+	height:20px;
+	width:5%;
+	text-align:right;
+}
+#browserframe{
+	width:100%;
+	height:100%;
+	border:none;
+	overflow:auto;
+}
+#framearea{
+	width:100%;
+	height:100%;
+}
